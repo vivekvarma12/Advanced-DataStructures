@@ -39,7 +39,7 @@ for i in l:
         p.append(l)
         q[l[0]] = l
     d[i[0]] = i
-for i, k in d.items():
+for i, k in sorted(d.items()):
     if i in q.keys():
         print("{} : {} {},".format(i , q[i], k))
     else:
