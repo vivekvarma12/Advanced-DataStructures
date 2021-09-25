@@ -6,10 +6,9 @@ for i in l:
         f[i[0].lower()].append(i)
     else:
         f[i[0]] = [i]
-
 for i,j in sorted(f.items()):
     print("{}: {},".format(i,j))
-
+    
 """    
  O/P
  --
