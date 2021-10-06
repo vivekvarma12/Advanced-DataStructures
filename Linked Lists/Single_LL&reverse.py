@@ -32,3 +32,20 @@ print("Now im traversing thru inserted order in Linked List")
 p.trav()
 print("Now im traversing in reverse order in Linked List")
 p.rev()
+
+
+#OP
+"""
+Now im traversing thru inserted order in Linked List
+1
+2
+3
+4
+5
+Now im traversing in reverse order in Linked List
+5
+4
+3
+2
+1
+"""
