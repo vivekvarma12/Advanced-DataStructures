@@ -7,10 +7,12 @@ class LL:
             self = self.next
         self.next = LL(data)
     def trav(self):
+        #this method is to traverse the list from front
         while self!=None:
             print(self.data)
             self = self.next
     def rev(self):
+        #this method is to reverse the list
         prev = right = None
         while self != None:
             right = self.next
